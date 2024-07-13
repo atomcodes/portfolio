@@ -1,0 +1,284 @@
+/*  */
+@import url(https://db.onlinewebfonts.com/c/8ca5ece96a4f42668377a98707273430?family=Baloo+Paaji+2+Bold);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Baloo Paaji 2 Bold";
+}
+header {
+  background: url(imgs/header.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  margin: 5px 3rem;
+  border: 2px solid green;
+  /* border: 2px solid red; */
+}
+header.sticky{
+  background-color: white;
+  height: 60px;
+}
+a {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+.logo {
+  font-weight: bold;
+  font-size: 35px;
+}
+/* .ham img {
+  border: 2px solid red;
+  color: white;
+} */
+.item {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 400px;
+  margin-top: 2.5rem;
+  line-height: 1.2;
+}
+.hero-text {
+  width: 300px;
+}
+.hero-text h1 {
+  font-size: 3rem;
+  color: rgb(80, 73, 73);
+  font-size: "BalooPaaji";
+}
+.hero-text p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-variation-settings: "wdth" 100;
+}
+h1 span {
+  color: rgb(117, 114, 114);
+  display: inline-block;
+  padding-top: 80px;
+}
+.hero-text p {
+  font-size: 15px;
+  font-weight: 100;
+  color: gray;
+  letter-spacing: 4px;
+}
+.hero-text button {
+  outline: none;
+  border: 2px solid;
+  border-radius: 25px;
+  padding: 10px 10px;
+  background-color: rgb(109, 109, 197);
+  color: white;
+  font-size: 17px;
+}
+.about-container {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 2.5rem; */
+  border: 2px solid red;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  border: 2px solid green;
+}
+.about-content h2 {
+  font-size: 2rem;
+  color: rgb(75, 75, 169);
+}
+.about-content p {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.about-content button {
+  display: inline-block;
+  margin-top: 20px;
+  width: 150px;
+  padding: 12px 15px;
+  outline: none;
+  border-radius: 25px;
+  border: 1.5px solid rgb(86, 49, 120);
+  color: rgb(98, 44, 150);
+  font-size: 17px;
+  background-color: transparent;
+  margin-top: 50px;
+}
+.about-container img {
+  width: 25%;
+  height: 300px;
+}
+.service-container {
+  text-align: center;
+}
+.service {
+  margin-top: 50px;
+}
+.service-content p {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.service-content h2 {
+  color: rgb(60, 60, 143);
+}
+.service-boxes {
+  display: flex;
+  /* border: 2px solid yellow; */
+  justify-content: space-around;
+}
+.box img {
+  width: 70%;
+}
+.box {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  padding: 30px 40px;
+}
+.box p {
+  color: rgb(65, 65, 168);
+}
+.portfolio-section {
+  margin-top: 50px;
+}
+.portfolio-content {
+  text-align: center;
+}
+.portfolio-content p {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.portfolio-content h2 {
+  color: rgb(65, 65, 168);
+}
+.portfolio-ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20px;
+}
+.portfolio-ul img {
+  width: 31%;
+  /* border: 2px solid red; */
+}
+.price-section {
+  margin-top: 40px;
+}
+.price-content {
+  text-align: center;
+}
+.price-section p {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  text-align: center;
+}
+.price-section h2 {
+  color: rgb(65, 65, 168);
+  text-align: center;
+}
+.price-section button {
+  text-align: center;
+}
+.prices {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 60px;
+}
+.price-box img {
+  width: 20%;
+  margin-left: 80px;
+}
+.price-box {
+  border: 1px solid rgb(110, 107, 107);
+  height: 350px;
+  margin: 0 auto;
+  padding: 15px 90px;
+  line-height: 1.4;
+}
+.price-box button {
+  padding: 5px 5px;
+  border-radius: 0;
+  outline: none;
+  background-color: rgb(75, 75, 165);
+  color: white;
+  border: none;
+  margin: 15px 60px;
+}
+.x-icon {
+  text-align: center;
+  color: rgb(236, 121, 79);
+}
+.hiring-section {
+  background-color: rgb(65, 65, 168);
+  margin-top: 40px;
+}
+.hiring-container {
+  display: flex;
+  justify-content: space-around;
+}
+.hiring-container button {
+  padding: 0 10px;
+  display: inline-block;
+  height: 30px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.testimonial-container {
+  display: flex;
+  justify-content: space-around;
+}
+.testimonial-box {
+  display: flex;
+  border: 1px solid black;
+  width: 500px;
+  padding: 30px 20px 30px 0;
+  margin-top: 40px;
+}
+.testimonial-content {
+  text-align: center;
+  margin-top: 30px;
+}
+.testimonial-box img {
+  width: 90px;
+  border-radius: 45px;
+  position: relative;
+  right: 50px;
+}
+.testimonial-over {
+  display: flex;
+  flex-direction: column;
+}
